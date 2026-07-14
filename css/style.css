@@ -779,6 +779,12 @@ h1, h2, h3, h4 {
     transition: all var(--transition-normal);
 }
 
+.footer-social a img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
 .footer-social a:hover {
     background-color: var(--color-secondary);
     color: var(--color-primary);
